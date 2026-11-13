@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.gevork.billiardinsky'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.gevork.billiardinsky'
+        minSdk 23
+        targetSdk 28
+        versionCode 4
+        versionName '3.0'
+    }
+    buildTypes { release { minifyEnabled false } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
